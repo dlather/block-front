@@ -3,8 +3,8 @@ import { BTCIcon, BNBIcon } from "./icons";
 const SwapTokens = () => {
   return (
     <div className="mx-auto w-full max-w-6xl bg-black opacity-90 px-8 py-8 mt-20 rounded-md border border-[#464646]">
-      <div className="flex justify-between items-center mb-6">
-        <p>SWAP TOKENS</p>
+      <div className="flex justify-between items-center mb-12">
+        <p className="font-semibold text-lg">SWAP TOKENS</p>
         <svg
           width="32"
           height="32"
@@ -21,13 +21,13 @@ const SwapTokens = () => {
         </svg>
       </div>
 
-      <div className="relative flex items-between gap-2 justify-center bg-[#1E1E1E] ">
+      <div className="relative flex items-between gap-2 rounded justify-center bg-[#1E1E1E] ">
         <div className="flex flex-1 pl-4 pr-10 flex-col justify-center items-center py-2">
-          <div className="flex w-full">
+          <div className="flex w-full mt-4">
             <input
               type="text"
               placeholder="0.00"
-              className="input text-3xl text-white placeholder-white font-semibold input-ghost w-full"
+              className="input text-5xl text-white placeholder-white font-semibold input-ghost w-full"
             />
             <div className="btn bg-black rounded-none">
               <BTCIcon />
@@ -66,11 +66,11 @@ const SwapTokens = () => {
           </svg>
         </button>
         <div className="flex flex-1 pr-10 pl-4 flex-col justify-center items-center py-2">
-          <div className="flex w-full">
+          <div className="flex w-full mt-4">
             <input
               type="text"
               placeholder="0.00"
-              className="input text-3xl text-white placeholder-white font-semibold input-ghost w-full"
+              className="input text-5xl text-white placeholder-white font-semibold input-ghost w-full"
             />
             <div className="btn bg-black rounded-none">
               <BNBIcon />
@@ -86,7 +86,7 @@ const SwapTokens = () => {
           </div>
         </div>
       </div>
-      <div className="flex justify-center items-center mx-auto my-4 text-white btn btn-wide rounded-none rounded-tl-lg btn-primary rounded-br-lg">
+      <div className="flex justify-center items-center mx-auto mb-4 mt-8 text-white btn btn-wide rounded-none rounded-tl-lg btn-primary rounded-br-lg">
         SWAP TOKENS
       </div>
       <div className="flex justify-between items-center text-sm">

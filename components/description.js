@@ -1,6 +1,6 @@
 const DescriptionComponent = () => {
   return (
-    <div className="flex flex-col items-center justify-center my-28">
+    <div className="flex flex-col items-center justify-center mt-28 mb-16">
       <p className="text-7xl  text-center">Easy send and Request</p>
       <p className="text-7xl  text-center">Crypto.</p>
       <p className="text-xl max-w-3xl text-center mt-10">
