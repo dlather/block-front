@@ -5,58 +5,6 @@ export const navBarItems = [
   "Notifications",
 ];
 
-export const assetsData = [
-  {
-    name: "BTC/USD",
-    symbol: "BTC",
-    last_trade: "$63,000.00",
-    "24h_%": "-2.21%",
-    "24h_change": "-$1,426.18",
-  },
-  {
-    name: "ETH/USD",
-    symbol: "ETH",
-    last_trade: "$3,408.90",
-    "24h_%": "-0.33%",
-    "24h_change": "-$11.20",
-  },
-  {
-    name: "DOGE/USD",
-    symbol: "DOGE",
-    last_trade: "$0.15",
-    "24h_%": "+15.75%",
-    "24h_change": "+$0.02",
-  },
-  {
-    name: "ALGO/USD",
-    symbol: "ALGO",
-    last_trade: "$0.15",
-    "24h_%": "0.00%",
-    "24h_change": "$0.00",
-  },
-  {
-    name: "DOT/USD",
-    symbol: "DOT",
-    last_trade: "$5.64",
-    "24h_%": "0.00%",
-    "24h_change": "$0.00",
-  },
-  {
-    name: "UNI/USD",
-    symbol: "UNI",
-    last_trade: "$9.79",
-    "24h_%": "0.00%",
-    "24h_change": "$0.00",
-  },
-  {
-    name: "COMP/USD",
-    symbol: "COMP",
-    last_trade: "$45.67",
-    "24h_%": "-0.95%",
-    "24h_change": "-$0.44",
-  },
-];
-
 export const iconsData = {
   BTC: {
     icon: (
